@@ -1,0 +1,296 @@
+/*ДОБАВЬ ХОВЕРЫ!!!!!!!!
+  Начало шапки        */
+
+
+#profile-banner{
+  position: relative;
+  height: 235px;
+  margin-bottom: 132px;
+}
+.profile-banner-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.profile-header{
+  position: absolute;
+  display: flex;
+  bottom: -116px;
+  height: 125px;
+  width: 100%;
+  background-color: white;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile-left-section{
+  position: relative;
+  width: 147px;
+  height: 100%;
+ display: flex;
+}
+
+.profile-left-section img{
+
+  height: 149px;
+  width: 149px;
+  border-radius: 100px;
+  outline: 4px solid white;
+  box-shadow: 0 0 2px white; /* чтобы рамка выглядела чуть четче*/
+  margin-top: -75px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.online-sign{
+  position: absolute;
+  background-color: #4bb34b;
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  border: 3.5px solid white;
+  z-index:1;
+  right: -8px;
+  bottom: 63px;
+  
+}
+.profile-mid-section{
+  display: flex;
+  width: 700px;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 38px;
+}
+.name{
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.name img{
+  margin-left: 8px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.status{
+  padding-bottom: 5px;
+}
+
+.info-etc{
+  display: flex;
+  align-items: center;
+  color: #6e6d7a;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+.info-etc img{
+  height: 20px;
+  opacity: 0.6;
+}
+.info-etc div{
+  padding-left: 5px;
+  padding-right: 11px;
+  cursor: pointer;
+}
+.profile-right-section{
+  display: flex;
+  justify-content: right;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-right: 15px;
+  width: 700px;
+}
+
+.city:hover,.etc:hover{
+  text-decoration: underline;
+}
+
+.edit-button,.more-button{
+  color: #346297;
+  background-color: #e5ebf1;
+  border:none;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  margin-right: 7px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.more-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.more-button img{
+  padding-left: 4px;
+  height: 12px;
+  width: 20px;
+}
+.more-button:hover,.edit-button:hover{
+  background-color: #dee4ec;
+}
+
+/* конец шапки.
+этот для diva который будет создавать пустое место*/
+
+
+/* начало раздела с медиа*/
+/* шапка раздела с медиа*/
+#user-media-section{
+  height: 290px;
+}
+
+.user-media-div{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  color: #818c99;
+  font-size: 14px;
+  font-weight: 700;
+}
+.user-media-top{
+  width: 526px;
+  height: 40px;
+  display: flex;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.media-section,.first-media-section{
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  height: 26px;
+  padding-right: 8px;
+  margin-right: 7px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.media-section:hover,.first-media-section:hover{
+  background-color: #edeef0;
+}
+
+.first-media-section{
+  margin-top: 1px;
+  margin-left: 2px;
+}
+.current-section{
+  border: 1px solid #dce1e6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.107);
+  color: #516a99;
+}
+
+.first-image{
+  opacity: 0.5;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.second-image{
+  opacity: 0.3;
+  padding-left: 5px;
+}
+.current-image{
+  padding-left: 7px;
+  padding-right: 5px;
+}
+
+.media-settings{
+  margin-top: 3px;
+  margin-left: 25px;
+  height: 20px;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.user-media-top:hover .media-settings{
+  opacity: 0.3;
+}
+
+/* середина раздела с медиа*/
+
+.user-media-middle{
+  display: flex;
+  padding-left: 20px;
+  padding-top: 3px;
+  margin-bottom: 5px;
+  height: 169px;
+}
+.media-user-photo-div{
+  position: relative;
+  height: 100%;
+  width: 168px;
+  margin-right: 10px;
+}
+.media-user-photo{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.hide-icon-div{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:10px;
+  right: 10px;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.432);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.media-user-photo-div:hover .hide-icon-div{
+  opacity: 1;
+}
+
+.hide-icon-div img{
+  height: 20px;
+  width: 20px;
+}
+
+/* низ раздела с медиа*/
+
+.user-media-botton-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+}
+.buttons-div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+  width: 505px;
+  height: 32px;
+}
+.media-button{
+ background-color: #e5ebf1;
+ color: #4f689f;
+ border: none;
+ font-weight: 700;
+ font-size: 14px;
+ height: 32px;
+ width: 49.3%;
+ border-radius: 7px;
+ cursor: pointer;
+ transition: background-color 0.15s;
+}
+
+.media-button:hover{
+  background-color: #dee4ec;
+}
+

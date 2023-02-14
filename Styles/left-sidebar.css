@@ -1,0 +1,74 @@
+#left-sidebar{
+  position: fixed;
+  left: 216px;
+  height: 550px;
+  width: 170px;
+  padding-top:-1px ;
+  background-color: #edeef0;
+  z-index: 100000;
+}
+
+
+.sidebar-section{
+  width: 160px;
+  height: 28px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+.sidebar-section:hover{
+  background-color: #e5e7eb;
+}
+.sidebar-icon img{
+  margin-left: 5px;
+  margin-right: 10px
+}
+.sidebar-notif-number{
+  display: flex;
+  margin-left: 70px;
+  justify-content: center;
+  align-items: center;
+  background-color: #99a2ad;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+}
+.sidebar-short-dash,.sidebar-long-dash{
+  background-color: #99a2ad27;
+  height: 0.5px;
+  margin-top: 9px;
+  margin-bottom: 12px;
+}
+.sidebar-short-dash{
+  width: 70%;
+  margin-left: 35px;
+}
+.sidebar-long-dash{
+  width: 88%;
+  margin-left: 3px;
+}
+.sidebar-info-panel{
+  display: flex;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  padding-left: 5px;
+  font-size: 12px;
+  line-height: 19px;
+  color: #828d9a;
+}
+.sidebar-info-panel div{
+  padding-right: 15px;
+  cursor: pointer;
+}
+.sidebar-info-panel div:hover{
+  text-decoration: underline;
+}
+.sidebar-info-panel div img{
+  opacity: 0.15;
+}

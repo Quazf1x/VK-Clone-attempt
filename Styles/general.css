@@ -1,0 +1,35 @@
+
+body{
+  background-color: #edeef0;
+  font-family:Arial;
+  overflow-x: hidden;
+}
+.border-style{ /* стиль "обертки" секций*/
+  background-color: white;
+  border: 1px solid #dce1e6;
+  border-radius: 12px;
+}
+.profile-page{
+  margin-left: 378px;
+  margin-top: 65px;
+  height: 2000px;
+  width: 911px;
+}
+
+
+
+#left-side-of-profile{
+  display: inline-block;
+  width: 548px;
+  }
+
+  #right-side-of-profile{
+    height: 1000px;
+    width: 100%;
+    margin-left: 18px;
+    display: inline-block;
+  }
+
+.under-banner-section{
+  display: flex;
+}

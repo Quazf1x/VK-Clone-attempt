@@ -1,0 +1,146 @@
+
+.header{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top:0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  border-bottom:1px solid #e7e8ec ;
+  background-color: white;
+  z-index: 1000;
+}
+.left-side{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  max-width: 355px;
+  flex:2;
+  height: 100%;
+  padding-right: 30px;
+}
+.left-side img{
+  cursor: pointer;
+}
+
+.mid-side{
+  display: flex;
+  align-items: center;
+  width: 900px;
+  height: 100%;
+}
+.input-div{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background-color:rgba(237,238,240,255);
+  border-radius: 7px;
+}
+.input-div img{
+  height: 14px;
+  padding-right: 10px;
+  opacity: 0.5;
+}
+.find-friends-input{
+  padding: 7px 0;
+  width: 195px;
+  background-color:rgba(237,238,240,255);
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  outline: none;
+}
+.find-friends-input::placeholder{
+  color: #818c99;
+}
+.notifications-div{
+  height: 100%;
+  width: 50px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.notifications-div:hover{
+  background-color: rgba(245,246,248,255);
+}
+.notifications-div img{
+  opacity: 0.5;
+}
+.music-div-container{
+  height: 100%;
+  display: flex;
+  flex:1;
+  padding-left: 3px;
+}
+.music-div{
+  display: flex;
+  height: 100%;
+  width: 270px;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  padding-right: 5px;
+}
+.music-div:hover{
+  background-color: rgba(245,246,248,255);
+}
+.music-div img{
+  opacity: 0.3;
+  padding-left: 5px;
+}
+.music-div p{
+  margin-left: 15px;
+  color: rgba(98,109,122,255);
+}
+
+.Services-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+.Services-div:hover{
+  background-color: rgba(245,246,248,255);
+}
+.Services-div img{
+  opacity: 0.4;
+}
+
+.User-Setting-Div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.User-Setting-Div:hover{
+  background-color: rgba(245,246,248,255);
+}
+
+.current-user-pic{
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  object-position: 45% 50%;
+  border-radius: 25px;
+}
+.settings-arrow
+{
+  margin-top: 3px;
+  margin-left: 5px;
+  opacity: 0.3;
+}
+.right-side{
+  display: flex;
+  align-items:center ;
+  max-width:195px;
+  flex:1.5;
+  height: 100%;
+}
